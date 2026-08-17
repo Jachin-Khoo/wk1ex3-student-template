@@ -46,14 +46,14 @@
           return;
         }
 
-        const num1 = Number(val1);
-        const num2 = Number(val2);
+        let no1 = Number(val1);
+        let no2 = Number(val2);
 
         // Verify both inputs parsed into valid numbers
-        if (isNaN(num1) || isNaN(num2)) {
+        if (isNaN(no1) || isNaN(no2)) {
           console.log('Please enter numbers only');
         } else {
-          console.log(num1 + num2);
+          console.log(no1 + no2);
         }
       }
     </script>
